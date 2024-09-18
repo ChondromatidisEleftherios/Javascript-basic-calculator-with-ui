@@ -243,7 +243,7 @@ function show9() {
 }
 
 function show0() {
-    if ((disp.value != "00") && (su < 8)) {
+    if ((disp.value != "00") && (su < 8) && (disp.value != "")) {
         su = su + 1;
         if (flag3 == true) {
             disp.value = disp.value;
